@@ -1,0 +1,16 @@
+{
+    "apps": [
+       {
+         "name": "basic-server-side-react",
+         "script": "ui-server/ui-server.js",
+         "exec_interpreter" : "babel-node",
+         "env": {
+             "PORT": "3000",
+             "watch": "ui-server/"
+           },
+         "env_production": {
+              "watch": false
+           }
+        }
+    ]
+}
